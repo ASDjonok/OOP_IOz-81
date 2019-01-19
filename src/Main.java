@@ -21,5 +21,11 @@ public class Main {
             }
         }
         System.out.println(S);
+
+        //Задачка (изменить один символ, чтобы
+        //напечатало 20 звёздочек
+        int i, N=20;
+        for(i = 0 ; i < N ; i--)
+            System.out.println("*");
     }
 }
